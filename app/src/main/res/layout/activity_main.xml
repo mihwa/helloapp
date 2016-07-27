@@ -2,61 +2,52 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#eaf5e9"
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/et_first_num"
+        android:id="@+id/et_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="id"
+        android:textColor="#ffaa00"
         />
 
     <EditText
-        android:id="@+id/et_second_num"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/bt_plus"
+        android:id="@+id/et_pw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+" />
+        android:layout_marginTop="50dp"
+        android:textColor="#ff7b00"
+        android:hint="pw"
+       />
 
     <Button
-        android:id="@+id/bt_minus"
+        android:id="@+id/bt_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="-" />
+        android:layout_marginTop="50dp"
+        android:textColor="#ffe100"
+        android:textSize="40dp"
+        android:text="로그인" />
+
 
     <Button
-        android:id="@+id/bt_multi"
+        android:id="@+id/bt_join"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="×" />
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:text="회원가입" />
 
-    <Button
-        android:id="@+id/bt_divide"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="÷" />
-
-    <Button
-        android:id="@+id/bt_rest"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="%" />
-
-    <Button
-        android:id="@+id/bt_equal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="=" />
 
     <TextView
-        android:id="@+id/tv_result"
+        android:id="@+id/tv_join"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="계산결과"
+        android:layout_marginTop="40dp"
+        android:text="ID가 없습니다"
         android:textColor="#ff0000"
         android:textSize="20dp" />
 
