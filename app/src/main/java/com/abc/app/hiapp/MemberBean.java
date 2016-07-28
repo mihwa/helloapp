@@ -5,6 +5,7 @@ package com.abc.app.hiapp;
  */
 public class MemberBean {
     private String id,pw,name,ssn,email,phone;
+    private int photo;
 
     public String getId() {
         return id;
@@ -54,4 +55,12 @@ public class MemberBean {
         this.phone = phone;
     }
 
+    public int getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(int photo) {
+        this.photo = photo;
+    }
 }
+

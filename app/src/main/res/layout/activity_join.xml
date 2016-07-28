@@ -14,10 +14,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:weightSum="1">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
@@ -35,10 +32,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:weightSum="1">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
@@ -59,9 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:weightSum="1">
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="100dp"
@@ -78,10 +70,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center_horizontal"
         android:orientation="horizontal"
-        android:weightSum="1">
+      >
 
         <TextView
             android:layout_width="100dp"
@@ -99,16 +89,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:weightSum="1">
-        >
+            android:orientation="horizontal"  >
 
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="EMAIL:"
+            android:text="Email:"
             android:textSize="20dp" />
 
         <EditText
@@ -120,10 +106,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal"
-        android:weightSum="1">
+        android:gravity="center_horizontal">
 
         <TextView
             android:layout_width="100dp"
@@ -143,12 +126,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="회원가입"
-        android:textSize="20dp" />
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/bt_reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="취소"
-        android:textSize="20dp" />
+        android:textSize="30dp" />
 </LinearLayout>

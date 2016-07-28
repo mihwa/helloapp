@@ -1,5 +1,7 @@
 package com.abc.app.hiapp;
 
+import android.content.Context;
+
 import java.util.List;
 
 /**
@@ -8,17 +10,16 @@ import java.util.List;
 public class MemberServiceImpl implements MemberService {
 
 
-    private MemberBean session;
 
-    private static MemberServiceImpl instance = new MemberServiceImpl();
-    private MemberDAO dao=null;
-    public static MemberServiceImpl getInstance() {
-        return instance;
+    MemberDAO dao;
+    MemberBean session;
+
+    public MemberServiceImpl(Context context) {
+        dao   = new MemberDAO(context);
     }
 
-
-    private MemberServiceImpl() {
-        session = new MemberBean();
+    public MemberServiceImpl(MemberDAO dao) {
+        this.dao = dao;
     }
 
     @Override

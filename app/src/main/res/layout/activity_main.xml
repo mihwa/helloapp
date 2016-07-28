@@ -11,44 +11,43 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:hint="id"
-        android:textColor="#ffaa00"
-        />
+        android:textColor="#ffaa00" />
 
     <EditText
         android:id="@+id/et_pw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:textColor="#ff7b00"
         android:hint="pw"
-       />
+        android:textColor="#ff7b00" />
+
 
     <Button
         android:id="@+id/bt_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:text="로그인"
         android:textColor="#ffe100"
-        android:textSize="40dp"
-        android:text="로그인" />
-
-
-    <Button
-        android:id="@+id/bt_join"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:textSize="40dp"
-        android:text="회원가입" />
-
+        android:textSize="40dp" />
 
     <TextView
         android:id="@+id/tv_join"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="ID가 없습니다"
+        android:text="ID가 없으면 가입하세요"
         android:textColor="#ff0000"
         android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bt_join"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가입하기"
+        android:textColor="#ffe100"
+        android:textSize="40dp" />
+
+
 
 </LinearLayout>
