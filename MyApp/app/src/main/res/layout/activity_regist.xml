@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NETFLIX"
+        android:textSize="40dp"
+        android:textColor="#ff0000"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="등록"
+        android:id="@+id/button3"
+        android:background="#ff0000"
+        android:textColor="@color/abc_secondary_text_material_dark"
+        android:textSize="30dp"
+        android:textColorHighlight="#fffefe"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginTop="64dp"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email 수신여부"
+        android:id="@+id/checkBox2"
+        android:checked="false"
+        android:textSize="20dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/button4"
+        android:hint="Email"
+        android:shadowColor="#ff0000"
+        android:textSize="20dp"
+        android:gravity="left|center"
+        android:background="@color/abc_background_cache_hint_selector_material_light"
+        android:layout_marginTop="128dp"
+        android:layout_below="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/button5"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:gravity="center|start"
+        android:background="@color/abc_background_cache_hint_selector_material_light"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="계정등록"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginBottom="53dp" />
+
+</RelativeLayout>
+
+

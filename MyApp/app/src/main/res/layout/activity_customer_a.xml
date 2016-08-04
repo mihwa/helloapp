@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원로그인"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NETFLIX"
+        android:textSize="40dp"
+        android:textColor="#ff0000"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="고객센터"
+        android:id="@+id/textView12"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginTop="118dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="어떤 도움이 필요하세요?"
+        android:id="@+id/button6"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView12"
+        android:background="#ffffff"
+        android:textColor="@color/abc_background_cache_hint_selector_material_dark"
+        android:layout_toStartOf="@+id/searchView"
+        android:textSize="20dp" />
+
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:queryHint="어떤 도움이 필요하세요?"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+
+

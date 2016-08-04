@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:textColor="#ff0000"
+        android:layout_toEndOf="@+id/checkBox2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NETFLIX"
+        android:textSize="40dp"
+        android:textColor="#ff0000"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="멤버십시작"
+        android:id="@+id/button3"
+        android:background="#ff0000"
+        android:textColor="@color/abc_secondary_text_material_dark"
+        android:textSize="20dp"
+        android:textColorHighlight="#fffefe"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="#fffefe"
+        android:textColorLink="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView3" />
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/button4"
+        android:hint="Email"
+        android:shadowColor="#ff0000"
+        android:textSize="20dp"
+        android:gravity="left|center"
+        android:background="@color/abc_background_cache_hint_selector_material_light"
+        android:text="카드번호"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="결제정보입력"
+        android:textSize="30dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/button4" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용약관/개인정보취급방침동의"
+        android:id="@+id/checkBox2"
+        android:checked="false"
+        android:textSize="20dp"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인정보 제3자제공동의"
+        android:id="@+id/checkBox3"
+        android:checked="false"
+        android:textSize="20dp"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="국민"
+        android:id="@+id/radioButton"
+        android:layout_below="@+id/button4"
+        android:checked="false" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="하나"
+        android:id="@+id/radioButton2"
+        android:checked="false"
+        android:layout_below="@+id/button4"
+        android:layout_toEndOf="@+id/radioButton" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="신한"
+        android:id="@+id/radioButton3"
+        android:checked="false"
+        android:layout_below="@+id/button4"
+        android:layout_toEndOf="@+id/radioButton2" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/button8"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:gravity="center|start"
+        android:background="@color/abc_background_cache_hint_selector_material_light"
+        android:text="이름"
+        android:layout_below="@+id/radioButton" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special"
+        android:id="@+id/radioButton4"
+        android:layout_alignEnd="@+id/checkBox3"
+        android:checked="false"
+        android:textSize="20dp"
+        android:layout_centerVertical="true" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic"
+        android:id="@+id/radioButton5"
+        android:checked="false"
+        android:textSize="20dp"
+        android:layout_centerVertical="true" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정보의 해외 이전 동의"
+        android:id="@+id/checkBox5"
+        android:checked="false"
+        android:textSize="20dp"
+        android:layout_below="@+id/checkBox3"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/button7"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:gravity="center|start"
+        android:background="@color/abc_background_cache_hint_selector_material_light"
+        android:text="연락처"
+        android:layout_below="@+id/radioButton4"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/button7"
+        android:layout_toEndOf="@+id/checkBox3" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인 정보 결제 서비스업체 제공동의"
+        android:id="@+id/checkBox4"
+        android:checked="false"
+        android:textSize="20dp"
+        android:layout_below="@+id/checkBox5"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+
